@@ -1,0 +1,390 @@
+
+/***********************GENERAL CSS******************************************/
+*{
+    margin: 0;
+    padding:0;
+    font-size: 12px;
+    font-family:'Octin Vintage';
+}
+
+body{
+    background: #1A090D;
+    color: #C4A77D;
+    letter-spacing: .05em;
+    line-height: 1.1em;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Octin Vintage';
+    src: url('font/octin%20vintage%20b%20rg.ttf');
+}
+
+/*******************************NAVBAR****************************************/
+
+.navbar {
+	padding: 10px 0;
+	transition: all .5s ease-in-out;
+	border: none;
+
+}
+
+.vv-top-nav {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.vv-nav-wrapper {
+	padding: 0 10px;
+}
+
+.navbar-brand {
+	color: #fff;
+	font-size: 26px;
+}
+
+.navbar-brand:hover {
+	color: #fff;
+}
+
+#vv-menu {
+	float:right;
+}
+
+.navbar-nav>li> a {
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover {
+	background: none;
+	color:  #C4A77D;
+}
+
+
+.navbar-toggle{
+	background-color: rgba(0,0,0,0.5);
+	border:solid 1px #fff;
+	border-radius: 0;
+}
+
+
+.navbar ul.navbar-nav>li.active>a{
+/*	color: #776D5A;*/
+    color:  #C4A77D;
+}
+
+
+.btn-general{
+    margin-top: 60px;
+    border: dashed 2px #fff;
+    border-radius: 0;
+    padding: 10px 26px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #C4A77D;
+}
+
+.btn-general:hover{
+    color: #FFF;
+     
+}
+
+
+/**************************HOME SECTION***********************************/
+
+#home{
+    height: 100%;
+}
+
+
+.home-cover{
+    background-image: url('images/clock.jpeg');
+    width: 100%;
+    background-size: cover;
+    height: 800px;
+    background: inset rgba(0,0,0,0.8);
+}
+
+.home-content{
+    color: #fff;
+    text-align: center;
+    font-size: 300px;
+     display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.home-content-inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.home-cover h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight:normal;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.desc-slogan p{
+     font-size: 16px;
+     line-height: 1.2em;
+    font-family: 'Roboto';
+}
+/********************CONTENT BOX***********************************************/
+.content-box{
+    padding: 60px 0;
+}
+.content-title h3{
+        font-size: 30px;
+        font-weight: 700px;
+        text-align: center;
+        margin: 0 0 30px;
+}
+
+.content-title-underline{
+    width: 30px;
+    height: 3px;
+    margin: 0 auto 30px;
+    background: #fff;
+}
+
+/*********************ABOUT***************************************************/
+#about{
+/*    background: #173753;*/
+/*    background: #032326;*/
+/*    background: #06090A;*/
+/*    background: #0B132B;*/
+    background: #1A090D;
+    color: #C4A77D;
+    width: 100%;
+    height: 800px;
+    font-size: 16px;
+}
+
+
+#about .content-box{
+    background: #1A090D;
+    float: right;
+    height: 700px;
+}
+
+.content-box-outer{
+    display: table;
+    width: 100%;
+    height: 100%;
+    
+}
+.content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.about-desc p{
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.3em;
+}
+.about-btn{
+    margin-top: -50px;
+    text-align: center;
+}
+
+
+.left-picture{
+    width: 40%;
+    float: left;
+    margin: 150px 150px 100px;
+    height: 450px;
+  background-image: url(images/antique.png);  
+}
+
+#sec-testimonial{
+ background: #FFF;
+}
+
+#sec-testimonial h3{
+/*    color: #C4A77D;*/
+      color: #64707B;
+     
+}
+
+.testimonial{
+    margin: 0 15px;
+    
+}
+
+.testimonial>img{
+    width: 50px;
+}
+
+.testimonial-info{
+    padding: 10px 0 30px 0;
+    text-align: center;
+    
+    
+}
+
+h4.testimonial-name{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 2px;
+      color: #64707B;
+   
+}
+
+.testimonial-feedback{
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+.social-list{
+    padding-left: 0;
+}
+
+.social-list li{
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top:10px;
+}
+
+.social-icon i{
+    font-size: 16px;
+}
+
+.icon-white{
+    color: #fff;
+}
+
+.icon-gray{
+    color: #64707B;
+}
+
+.icon-white:hover,
+.icon-gray:hover{
+    color: #C4A77D;
+}
+
+/*************CONTACT*************************/
+
+#contact{
+    margin-top: 100px;
+    padding-top: 30px;
+}
+
+.contact-right{
+     text-align: right;
+    float: right;
+}
+
+
+.contact-left h3,
+.contact-right h3,
+.contact-info h3,
+.phone-fax-email strong{
+    font-size: 26px;
+    color: #C4A77D;
+    font-weight: 500;
+}
+
+.phone-fax-email span
+{
+    font-size: 16px;
+    color: #FFF;
+/*    font-weight: 700;*/
+}
+
+.contact-right p{
+    color: #FFF;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.contact-info{
+   
+    color: #FFF;
+}
+
+
+address strong{
+    font-size: 26px;
+    color: #C4A77D;
+    font-weight: 500;
+} 
+
+
+address p{
+    color: #FFF;
+    font-size: 16px;
+}
+
+footer{
+    letter-spacing: 1px;
+}
+
+form .form-control{
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 12px;
+    padding: 10px 10px;
+    font-weight: 300;
+}
+
+.send-btn a{
+    margin-top: 10px;
+    margin-left: 250px;
+    border: dashed 1px #fff;
+}
+
+
+
+/*************FOOTER***************************/
+
+.footer-bottom{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 25px 0;
+    margin-top: 30px;
+}
+.footer-copyrights p{
+    color: #fff;
+}
+.footer-menu{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    float: right;
+}
+.footer-menu ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+.footer-menu a{
+    color: #fff;
+    padding-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.footer-menu a:hover{
+    color: #C4A77D;
+}
+
